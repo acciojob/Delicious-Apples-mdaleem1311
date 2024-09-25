@@ -1,1 +1,115 @@
 /* your code here */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	height:100vh; 
+	background-color:#11E27F;
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+}
+.product{
+	background-color:white;
+	position:relative;
+	
+}
+.product__photo{
+	
+}
+.photo-container{
+	position:absolute;
+
+	
+}
+.photo-main{
+	background-color:#BFEC51;
+		
+}
+
+.controls{
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	padding:15px
+}
+.photo-album>ul{
+      display:flex;
+	  justify-content:center;
+	  align-items:center;
+	  list-style-type:none;
+	  padding:15px;
+}
+.photo-album>ul>li>img{
+	width:45px;
+	border:1px solid gray;
+}
+.product__info{
+      width:720px;
+	  height:470px;
+	  padding-left:400px;
+	  padding-top:50px;
+	  postion:absolute;
+	  
+}
+.title>h1{
+      font-weight:900
+	  padding:10px;  
+}
+.title>span{
+	font-size:12px
+}
+.price{
+	 color:red;
+	 font-size:20px;
+	 padding:30px 0px;
+}
+.price>span{
+	font-size:40px;
+}
+.variant>h3{
+	color:grey;
+	text-transform:uppercase;
+}
+.variant>ul{
+	  display:flex;
+	  justify-content:left;
+	  align-items:center;
+	  list-style-type:none;
+	  border:1px sold grey;
+	  padding:10px 0px;
+}
+.variant>ul>li{
+	padding:0px 5px;
+}
+.variant>ul>li>img{
+	width:30px;
+	}
+.description>h2{
+	color:grey;
+	text-transform:uppercase;
+	font-size:15px;
+}
+.description>ul{
+	color:grey;
+	padding-left:20px;
+}
+.button{
+	/* background-color:#FF3E40; */
+	color:white;
+	padding: 9px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 201px;
+    border: none;
+    background: #FF342B;
+    border-radius: 10px;
+    cursor: pointer;
+	margin-left:15px;
+	margin-top:15px;
+	font-size:10px;
+	font-weight:700;
+	
+}
